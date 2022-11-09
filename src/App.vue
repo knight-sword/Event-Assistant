@@ -1,11 +1,25 @@
 <template>
-  <div class="m-5">
+  <div>
     <router-view></router-view>
   </div>
 </template>
 <style>
-.m-5 {
-  padding: 0 !important;
-  margin: 0 !important;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  border: hidden;
+}
+#app {
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: hidden;
 }
 </style>
